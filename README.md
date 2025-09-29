@@ -22,7 +22,7 @@ This project implements a lightweight **Cloud-Native Application Protection Plat
 > _High-level diagram of the CNAPP Lite stack:_
 
 ![Architecture Diagram](./cnapp_threat_detection.png)
-
+```
 ---
 
 ## 📁 Project Structure
@@ -43,7 +43,7 @@ cnapp_threat_detection_dashboard/
 │   ├── main.tf
 │   ├── variables.tf
 │   └── outputs.tf
-
+```
 ---
 
 ## 🚀 Getting Started
