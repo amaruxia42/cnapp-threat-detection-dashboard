@@ -1,7 +1,7 @@
 from typing import Any
 
 
-def evaluate_event(event: dict[str, Any]) -> dict[str, Any]:
+def evaluate_event(event: dict[str, Any]) -> dict[str, Any] | None:
     """
     Performs heuristic analysis on cloud events to identify security risks.
 
