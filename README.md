@@ -4,6 +4,8 @@
 
 This project implements a lightweight **Cloud-Native Application Protection Platform (CNAPP)** for AWS using modular **Terraform** and **Python Lambda**. It ingests threat data from **GuardDuty**, **Security Hub**, and **CloudTrail**, evaluates it, and provides real-time alerts and structured logging through **SNS**, **S3**, and **CloudWatch Logs**.
 
+Built to extend hands-on SIEM/SOAR and incident-detection experience into an event-driven, cloud-native architecture - automating the triage and alerting workflows typically handled by SOAR tooling in production security operations.
+
 ---
 
 ## 🎯 Key Features
