@@ -68,7 +68,8 @@ cnapp_threat_detection_dashboard/
 *1. Clone the repository**
 
 ```bash
-git clone https://github.com/amaruxia42/cnapp_threat_detection_dashboard.git
+git clone https://github.com/amaruxia42/cnapp-threat-detection-dashboard.git
+
 cd cnapp_threat_detection_dashboard
 ```
 
@@ -76,6 +77,7 @@ cd cnapp_threat_detection_dashboard
 
 ```bash
 cd modules/lambda
+
 zip -r build/threat_detection.zip threat_detection
 ```
 
@@ -83,6 +85,7 @@ zip -r build/threat_detection.zip threat_detection
 
 ```bash
 cd ../../terraform
+
 terraform init
 terraform apply
 
