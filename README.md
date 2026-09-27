@@ -62,19 +62,29 @@ cnapp_threat_detection_dashboard/
 
 ### 🛠️ Deployment
 
-1. **Package the Lambda**
+
+*1. Clone the repository**
+
+```bash
+git clone https://github.com/amaruxia42/cnapp_threat_detection_dashboard.git
+```
+
+2. **Package the Lambda**
 
 ```bash
 cd modules/lambda
 zip -r build/threat_detection.zip threat_detection
+```
 
-Deploy Infrastructure
+3.Deploy Infrastructure
 
+```bash
 cd ../../terraform
 terraform init
 terraform apply
 
 Provide inputs (e.g., bucket names, regions, etc.) during or via terraform.tfvars.
+```
 
 ⸻
 
@@ -116,5 +126,5 @@ To destroy the infrastructure:
 terraform destroy -auto-approve
 
 Author: Robert Wright
-Cloud/Network Security Enthusiast | AWS Solutions Architect Associate | AWS Security Specialty
+Cloud/Network Security Engineer | AWS Solutions Architect Associate | AWS Security Specialty
 GitHub: @amaruxia42
