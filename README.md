@@ -6,6 +6,8 @@ This project implements a lightweight **Cloud-Native Application Protection Plat
 
 Built to extend hands-on SIEM/SOAR and incident-detection experience into an event-driven, cloud-native architecture - automating the triage and alerting workflows typically handled by SOAR tooling in production security operations.
 
+This project was part of a broader security engineering portfolio; security posture services auditing covered separately by [`cloud_and_network_automation`](https://github.com/amaruxia42/cloud_and_network_automation), an AWS Security Benchmark Audit Toolkit (Lite CSPM).
+
 ---
 
 ## 🎯 Key Features
@@ -67,6 +69,7 @@ cnapp_threat_detection_dashboard/
 
 ```bash
 git clone https://github.com/amaruxia42/cnapp_threat_detection_dashboard.git
+cd cnapp_threat_detection_dashboard
 ```
 
 2. **Package the Lambda**
